@@ -87,6 +87,10 @@ body{
     background-image: url("https://i.gifer.com/3F3I.gif");
 }
 
+.pequeno{
+    transform: scale(0.5);
+}
+
 .movendo{
     transform: translate(-400px);
 }

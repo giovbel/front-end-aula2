@@ -34,13 +34,8 @@ function mudarFundo(){
     fundo.classList.toggle('corDeFundo')
 }
 
-function mudarTexto(){
-
-    if(surprise.textContent === 'surprise'){
-        surprise.textContent = 'OLAAAA !!'
-    }else{
-        surprise.textContent = 'surprise'
-    }
+function diminuir(){
+    forma7.classList.toggle('pequeno')
 }
 
 function movimento(){
@@ -53,5 +48,5 @@ forma3.addEventListener('click', mudarImagem)
 forma4.addEventListener('click', desaparecer)
 forma5.addEventListener('click', girando)
 forma6.addEventListener('click', mudarFundo)
-forma7.addEventListener('click', mudarTexto)
+forma7.addEventListener('click', diminuir)
 forma8.addEventListener('click', movimento)
