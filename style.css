@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 16px;
+    gap: 16px;
+}
+
+.item{
+    height: 150px;
+    width: 80%;
+    background-color: rgb(198, 138, 138);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 32px;
+    background: linear-gradient(90deg, rgb(97, 150, 97), rgb(244, 113, 135));
+}
+
+.texto{
+    color: white;
+    font-size: 50px;
+}
+
+.forma{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(216, 28, 59);
+    cursor: pointer;
+    transition: 1s;
+}
+
+.amarelo{
+    background-color: green;
+}
+
+.circulo{
+    border-radius: 50%;
+}
+
+.img {
+    background-image: url(./img/melanie.jfif);
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    transition: 1s;
+}
+
+.melanie {
+    background-image: url(./img/melanie.jfif);
+    background-size: cover;
+}
+
+.desaparecer {
+    opacity: 0;
+}
+
+.back {
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -xpedu-transform: scale(1);
+}
+  
+  .round {
+    border-radius: 10px;
+    transform: rotate(360deg); 
+    background-color: rgb(144, 27, 47);
+  }
+
+.mover{
+    animation: go-back 1s;
+  }
+
+  .corDeFundo{
+    background-color: pink;
+    background-image: url("https://i.gifer.com/3F3I.gif");
+}
+
+.pikachuimg{
+    background-image: url("https://pa1.aminoapps.com/6543/6ce1a259b1ed03d41cb6d67160d76650f203c8ca_hq.gif");
+    
+}
