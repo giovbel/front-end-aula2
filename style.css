@@ -87,7 +87,6 @@ body{
     background-image: url("https://i.gifer.com/3F3I.gif");
 }
 
-.pikachuimg{
-    background-image: url("https://pa1.aminoapps.com/6543/6ce1a259b1ed03d41cb6d67160d76650f203c8ca_hq.gif");
-    
+.movendo{
+    transform: translate(-400px);
 }

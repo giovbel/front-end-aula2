@@ -8,6 +8,7 @@ const forma5 = document.getElementById('forma5')
 const forma6 = document.getElementById('forma6')
 const fundo = document.getElementById('fundo')
 const forma7 = document.getElementById('forma7')
+const forma8 = document.getElementById('forma8')
 
 function mudarCor(){
     forma1.classList.toggle('amarelo')
@@ -36,12 +37,14 @@ function mudarFundo(){
 function mudarTexto(){
 
     if(surprise.textContent === 'surprise'){
-        surprise.textContent = 'PIKACHUU !!'
-        forma7.classList.add('pikachuimg')
+        surprise.textContent = 'OLAAAA !!'
     }else{
         surprise.textContent = 'surprise'
-        forma7.classList.remove('pikachuimg')
     }
+}
+
+function movimento(){
+    forma8.classList.toggle('movendo')
 }
 
 forma1.addEventListener('click', mudarCor)
@@ -51,3 +54,4 @@ forma4.addEventListener('click', desaparecer)
 forma5.addEventListener('click', girando)
 forma6.addEventListener('click', mudarFundo)
 forma7.addEventListener('click', mudarTexto)
+forma8.addEventListener('click', movimento)
